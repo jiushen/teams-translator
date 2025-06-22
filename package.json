@@ -23,7 +23,10 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "keywords": ["translator", "teams", "clipboard", "electron", "cross-platform"],
-  "author": "Your Name",
+  "author": {
+    "name": "Teams Translator Team",
+    "email": "teams-translator@example.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
@@ -83,6 +86,7 @@
     },
     "linux": {
       "category": "Office",
+      "maintainer": "Teams Translator Team <teams-translator@example.com>",
       "target": [
         {
           "target": "AppImage",
