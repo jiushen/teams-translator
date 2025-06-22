@@ -1,0 +1,78 @@
+{
+  "openaiKey": "73ac610e2433323a888fb42c8ad04eea:0f2375cf8debb609e6f492a1e5317b2e",
+  "deepseekKey": "",
+  "customTerms": {},
+  "selectedModel": "deepseek-v3-0324",
+  "sourceLang": "ja",
+  "targetLang": "zh",
+  "clipboardMonitor": true,
+  "autoCopyResult": false,
+  "translationPrompt": {
+    "systemPrompt": "你是专业的翻译助手，提供准确、自然的翻译。",
+    "userPromptTemplate": "请将以下{sourceLang}文本翻译成{targetLang}：\n\n原文：{text}\n\n要求：\n1. 保持原意准确\n2. 语言自然流畅\n3. 已预处理的专有名词请保持不变\n4. 只返回翻译结果，不要添加任何解释"
+  },
+  "resultStyles": {
+    "original": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 14,
+      "color": "#0056b3",
+      "fontWeight": "bold",
+      "lineHeight": 1.5
+    },
+    "translation": {
+      "fontFamily": "'Microsoft YaHei', sans-serif",
+      "fontSize": 17,
+      "color": "#161717",
+      "fontWeight": "normal",
+      "lineHeight": 1.5
+    },
+    "timestamp": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 12,
+      "color": "#6c757d",
+      "fontWeight": "normal",
+      "lineHeight": 1.4
+    },
+    "cost": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 12,
+      "color": "#fd7e14",
+      "fontWeight": "normal",
+      "lineHeight": 1.4
+    },
+    "clipboard": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 13,
+      "color": "#6f42c1",
+      "fontWeight": "normal",
+      "fontStyle": "italic",
+      "lineHeight": 1.4
+    },
+    "error": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 12,
+      "color": "#dc3545",
+      "fontWeight": "normal",
+      "lineHeight": 1.4
+    },
+    "info": {
+      "fontFamily": "Consolas, Monaco, monospace",
+      "fontSize": 12,
+      "color": "#17a2b8",
+      "fontWeight": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "autoFormat": false,
+  "theme": "light",
+  "fontSize": 14,
+  "windowSize": {
+    "width": 1200,
+    "height": 900
+  },
+  "shortcuts": {
+    "translate": "Ctrl+Enter",
+    "clear": "Ctrl+L",
+    "paste": "Ctrl+Shift+V"
+  }
+}

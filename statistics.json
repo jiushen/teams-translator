@@ -1,0 +1,24 @@
+{
+  "totalTranslations": 68,
+  "totalTokens": 14912,
+  "totalCost": 0.007255570000000001,
+  "dailyStats": {
+    "2025-06-22": {
+      "translations": 68,
+      "tokens": 14912,
+      "cost": 0.007255570000000001
+    }
+  },
+  "modelUsage": {
+    "DeepSeek V3-0324 🔥": {
+      "count": 66,
+      "tokens": 14383,
+      "cost": 0.007109620000000001
+    },
+    "GPT-4o Mini": {
+      "count": 2,
+      "tokens": 529,
+      "cost": 0.00014595
+    }
+  }
+}

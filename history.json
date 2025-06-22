@@ -1,0 +1,1576 @@
+[
+  {
+    "id": "1750619263767",
+    "timestamp": "2025-06-22T19:07:43.767Z",
+    "originalText": "配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json",
+    "translatedText": "配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json",
+    "processedText": "配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 90,
+      "completion_tokens": 23,
+      "total_tokens": 113,
+      "prompt_tokens_details": {
+        "cached_tokens": 64
+      },
+      "prompt_cache_hit_tokens": 64,
+      "prompt_cache_miss_tokens": 26
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.000049600000000000006
+  },
+  {
+    "id": "1750619442446",
+    "timestamp": "2025-06-22T19:10:42.446Z",
+    "originalText": "🎯 剪贴板监听已启动 - 复制文本将自动翻译\r\n\r\n[03:07:39] 📋 检测到剪贴板内容\r\n\r\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\r\n\r\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\r\n\r\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\r\n\r\n本次成本: $0.0000 (输入:90 输出:23 tokens)\r\n\r\n📋 翻译结果已复制到剪贴板\r\n\r\n===================================================",
+    "translatedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板\n\n===================================================",
+    "processedText": "🎯 剪贴板监听已启动 - 复制文本将自动翻译\r\n\r\n[03:07:39] 📋 检测到剪贴板内容\r\n\r\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\r\n\r\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\r\n\r\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\r\n\r\n本次成本: $0.0000 (输入:90 输出:23 tokens)\r\n\r\n📋 翻译结果已复制到剪贴板\r\n\r\n===================================================",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 233,
+      "completion_tokens": 144,
+      "total_tokens": 377,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 233
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00022131000000000003
+  },
+  {
+    "id": "1750619965825",
+    "timestamp": "2025-06-22T19:19:25.825Z",
+    "originalText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板\n\n===================================================",
+    "translatedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "processedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板\n\n===================================================",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 211,
+      "completion_tokens": 140,
+      "total_tokens": 351,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 211
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00021097
+  },
+  {
+    "id": "1750619980451",
+    "timestamp": "2025-06-22T19:19:40.451Z",
+    "originalText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "translatedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "processedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 207,
+      "completion_tokens": 140,
+      "total_tokens": 347,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 207
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00020989
+  },
+  {
+    "id": "1750620018346",
+    "timestamp": "2025-06-22T19:20:18.346Z",
+    "originalText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "translatedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "processedText": "🎯 剪贴板监听已启动 - 复制的文本将自动翻译\n\n[03:07:39] 📋 检测到剪贴板内容\n\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\n\n原文 (ja): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n译文 (zh): 配置文件保存在：C:\\Users\\[用户名]\\AppData\\Roaming\\teams-translator\\config.json\n\n本次成本: $0.0000 (输入:90 输出:23 tokens)\n\n📋 翻译结果已复制到剪贴板",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 207,
+      "completion_tokens": 140,
+      "total_tokens": 347,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 207
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00020989
+  },
+  {
+    "id": "1750620018413",
+    "timestamp": "2025-06-22T19:20:18.413Z",
+    "originalText": "38話はもう解決済みですね。あのこれもう24で出てる気質のものであのカラー音声を挿入できる機能を追加するっていう風にもあの出てるのであのブツっと切れないようにえー、そういう対応ができるっていう風な形になります。",
+    "translatedText": "第38话的问题已经解决了。其实这个在24版就已经具备了相关功能特性，就是能够添加那种彩色语音的功能。现在出来的版本已经可以做到让声音不会突然中断，嗯...就是能够实现这种顺畅衔接的效果。",
+    "processedText": "38話はもう解決済みですね。あのこれもう24で出てる気質のものであのカラー音声を挿入できる機能を追加するっていう風にもあの出てるのであのブツっと切れないようにえー、そういう対応ができるっていう風な形になります。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 137,
+      "completion_tokens": 48,
+      "total_tokens": 185,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 137
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008979
+  },
+  {
+    "id": "1750620019091",
+    "timestamp": "2025-06-22T19:20:19.091Z",
+    "originalText": "38話はもう解決済みですね。あのこれもう24で出てる気質のものであのカラー音声を挿入できる機能を追加するっていう風にもあの出てるのであのブツっと切れないようにえー、そういう対応ができるっていう風な形になります。",
+    "translatedText": "第38话的问题已经解决了。其实这个在24版就已经具备的功能特质，就是能够插入彩色语音的功能，现在是以这样的形式呈现出来的。所以能做到让声音不会突然中断，嗯，就是能够实现这样的处理方式。",
+    "processedText": "38話はもう解決済みですね。あのこれもう24で出てる気質のものであのカラー音声を挿入できる機能を追加するっていう風にもあの出てるのであのブツっと切れないようにえー、そういう対応ができるっていう風な形になります。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 137,
+      "completion_tokens": 48,
+      "total_tokens": 185,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 137
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008979
+  },
+  {
+    "id": "1750620022791",
+    "timestamp": "2025-06-22T19:20:22.791Z",
+    "originalText": "第38话的问题已经解决了。其实这个在24版就已经具备的功能特质，就是能够插入彩色语音的功能，现在是以这样的形式呈现出来的。所以能做到让声音不会突然中断，嗯，就是能够实现这样的处理方式。",
+    "translatedText": "第38话的问题已经解决了。其实这个在24版就已经具备的功能特性，就是能够插入彩色语音的功能，现在是以这样的形式呈现出来的。所以能做到让声音不会突然中断，嗯，就是能够实现这样的处理方式。",
+    "processedText": "第38话的问题已经解决了。其实这个在24版就已经具备的功能特质，就是能够插入彩色语音的功能，现在是以这样的形式呈现出来的。所以能做到让声音不会突然中断，嗯，就是能够实现这样的处理方式。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 48,
+      "total_tokens": 162,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 114
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008358000000000001
+  },
+  {
+    "id": "1750620023479",
+    "timestamp": "2025-06-22T19:20:23.479Z",
+    "originalText": "第38话的问题已经解决了。其实这个在24版就已经具备了相关功能特性，就是能够添加那种彩色语音的功能。现在出来的版本已经可以做到让声音不会突然中断，嗯...就是能够实现这种顺畅衔接的效果。",
+    "translatedText": "第38话的问题已经解决了。其实在24版就已经具备了这个功能特性，就是能够添加那种彩色语音的功能。现在推出的版本已经可以避免声音突然中断，嗯...就是能实现这种流畅衔接的效果。",
+    "processedText": "第38话的问题已经解决了。其实这个在24版就已经具备了相关功能特性，就是能够添加那种彩色语音的功能。现在出来的版本已经可以做到让声音不会突然中断，嗯...就是能够实现这种顺畅衔接的效果。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 45,
+      "total_tokens": 159,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 114
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008028000000000001
+  },
+  {
+    "id": "1750620032434",
+    "timestamp": "2025-06-22T19:20:32.434Z",
+    "originalText": "第38话的问题已经解决了。其实在24版就已经具备了这个功能特性，就是能够添加那种彩色语音的功能。现在推出的版本已经可以避免声音突然中断，嗯...就是能实现这种流畅衔接的效果。",
+    "translatedText": "第38话的问题已经解决了。其实在24版就已经具备了这个功能特性，就是能够添加那种彩色语音的功能。现在推出的版本已经可以避免声音突然中断，嗯...就是能实现这种流畅衔接的效果。",
+    "processedText": "第38话的问题已经解决了。其实在24版就已经具备了这个功能特性，就是能够添加那种彩色语音的功能。现在推出的版本已经可以避免声音突然中断，嗯...就是能实现这种流畅衔接的效果。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 45,
+      "total_tokens": 156,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 111
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007947000000000001
+  },
+  {
+    "id": "1750620047166",
+    "timestamp": "2025-06-22T19:20:47.166Z",
+    "originalText": "あ、そうです。スペースを入れるってことで。\r\n@2 27 分钟 6 秒\r\nそうですね。これすいません。ちょっと先週もあのえっとレオンさんからご説明をいただいてた内容だったんですけども、あのこちらに関してはカラーでえっと？まあ、ちょっと長くできるじゃないですけど、語尾のところいつもブツって切れてるところにあの挿入することができるようにはなるっていう。",
+    "translatedText": "啊对，就是加空格的问题。  \n（@2 27分6秒）  \n是的。这个不好意思，其实上周レオンさん也解释过相关内容——关于这个部分，用彩色的话...虽然不能拉得太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "processedText": "あ、そうです。スペースを入れるってことで。\r\n@2 27 分钟 6 秒\r\nそうですね。これすいません。ちょっと先週もあのえっとレオンさんからご説明をいただいてた内容だったんですけども、あのこちらに関してはカラーでえっと？まあ、ちょっと長くできるじゃないですけど、語尾のところいつもブツって切れてるところにあの挿入することができるようにはなるっていう。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 177,
+      "completion_tokens": 61,
+      "total_tokens": 238,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 177
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011489
+  },
+  {
+    "id": "1750620047212",
+    "timestamp": "2025-06-22T19:20:47.212Z",
+    "originalText": "あ、そうです。スペースを入れるってことで。\r\n@2 27 分钟 6 秒\r\nそうですね。これすいません。ちょっと先週もあのえっとレオンさんからご説明をいただいてた内容だったんですけども、あのこちらに関してはカラーでえっと？まあ、ちょっと長くできるじゃないですけど、語尾のところいつもブツって切れてるところにあの挿入することができるようにはなるっていう。",
+    "translatedText": "啊对，就是加空格的问题。  \n（@2 27分6秒）  \n是的。这个不好意思，其实上周レオンさん也解释过相关内容——关于这个部分，用彩色的话...虽然不能拉太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "processedText": "あ、そうです。スペースを入れるってことで。\r\n@2 27 分钟 6 秒\r\nそうですね。これすいません。ちょっと先週もあのえっとレオンさんからご説明をいただいてた内容だったんですけども、あのこちらに関してはカラーでえっと？まあ、ちょっと長くできるじゃないですけど、語尾のところいつもブツって切れてるところにあの挿入することができるようにはなるっていう。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 177,
+      "completion_tokens": 60,
+      "total_tokens": 237,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 177
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011379
+  },
+  {
+    "id": "1750620052921",
+    "timestamp": "2025-06-22T19:20:52.921Z",
+    "originalText": "啊对，就是加空格的问题。  \n（@2 27分6秒）  \n是的。这个不好意思，其实上周レオンさん也解释过相关内容——关于这个部分，用彩色的话...虽然不能拉太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "translatedText": "啊对，就是加空格的问题。\n（@2 27分6秒）\n没错。这个实在抱歉，其实上周レオンさん也解释过相关内容——关于这部分，如果用彩色标注的话...虽然不能拉得太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "processedText": "啊对，就是加空格的问题。  \n（@2 27分6秒）  \n是的。这个不好意思，其实上周レオンさん也解释过相关内容——关于这个部分，用彩色的话...虽然不能拉太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 126,
+      "completion_tokens": 60,
+      "total_tokens": 186,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 126
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00010002000000000001
+  },
+  {
+    "id": "1750620059118",
+    "timestamp": "2025-06-22T19:20:59.118Z",
+    "originalText": "啊对，就是加空格的问题。\n（@2 27分6秒）\n没错。这个实在抱歉，其实上周レオンさん也解释过相关内容——关于这部分，如果用彩色标注的话...虽然不能拉得太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "translatedText": "啊对，就是加空格的问题。\n（@2 27分6秒）\n确实如此。这个实在很抱歉，其实上周レオンさん也解释过相关内容——关于这部分，如果用彩色标注的话...虽然不能拉得太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "processedText": "啊对，就是加空格的问题。\n（@2 27分6秒）\n没错。这个实在抱歉，其实上周レオンさん也解释过相关内容——关于这部分，如果用彩色标注的话...虽然不能拉得太长，但可以在每次句尾突然截断的地方插入内容了。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 126,
+      "completion_tokens": 62,
+      "total_tokens": 188,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 126
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00010222000000000001
+  },
+  {
+    "id": "1750620071978",
+    "timestamp": "2025-06-22T19:21:11.978Z",
+    "originalText": "ちょっと教えてください。これスペースを入れるってことです。これ敵これ？アバモの管理画面とは違うんですけど、敵スペースを入れるのか、そういう機能が追加されるのか、どっちですか？",
+    "translatedText": "请问一下，这是说要加空格吗？这个\"敌\"是指？虽然和アバモ的管理界面不同，但到底是需要手动输入\"敌\"这个空格呢，还是说会新增这样的功能呢？",
+    "processedText": "ちょっと教えてください。これスペースを入れるってことです。これ敵これ？アバモの管理画面とは違うんですけど、敵スペースを入れるのか、そういう機能が追加されるのか、どっちですか？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 119,
+      "completion_tokens": 44,
+      "total_tokens": 163,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 119
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008053000000000002
+  },
+  {
+    "id": "1750620072942",
+    "timestamp": "2025-06-22T19:21:12.942Z",
+    "originalText": "ちょっと教えてください。これスペースを入れるってことです。これ敵これ？アバモの管理画面とは違うんですけど、敵スペースを入れるのか、そういう機能が追加されるのか、どっちですか？",
+    "translatedText": "请问一下，这是说要加空格吗？这个\"敌\"是指？和アバモ的管理界面不同，是要给\"敌\"加空格吗？还是说会新增这样的功能呢？",
+    "processedText": "ちょっと教えてください。これスペースを入れるってことです。これ敵これ？アバモの管理画面とは違うんですけど、敵スペースを入れるのか、そういう機能が追加されるのか、どっちですか？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 119,
+      "completion_tokens": 40,
+      "total_tokens": 159,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 119
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007613000000000002
+  },
+  {
+    "id": "1750620076473",
+    "timestamp": "2025-06-22T19:21:16.473Z",
+    "originalText": "请问一下，这是说要加空格吗？这个\"敌\"是指？虽然和アバモ的管理界面不同，但到底是需要手动输入\"敌\"这个空格呢，还是说会新增这样的功能呢？",
+    "translatedText": "请问一下，这是说要加空格吗？这个\"敌\"是指？虽然和アバモ的管理界面不同，但到底是需要手动输入\"敌\"这个空格呢，还是说会新增这样的功能呢？",
+    "processedText": "请问一下，这是说要加空格吗？这个\"敌\"是指？虽然和アバモ的管理界面不同，但到底是需要手动输入\"敌\"这个空格呢，还是说会新增这样的功能呢？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 110,
+      "completion_tokens": 44,
+      "total_tokens": 154,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 110
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.0000781
+  },
+  {
+    "id": "1750620216022",
+    "timestamp": "2025-06-22T19:23:36.022Z",
+    "originalText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "translatedText": "大概只有这里，目前设定是声音和Avatar必须绑定调整无法单独修改，不过我觉得如果能改成可以单独调整Avatar长度的话，用户体验会更好吧。",
+    "processedText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 127,
+      "completion_tokens": 33,
+      "total_tokens": 160,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 127
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007059000000000001
+  },
+  {
+    "id": "1750620216094",
+    "timestamp": "2025-06-22T19:23:36.095Z",
+    "originalText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "translatedText": "大概只有这里，目前是必须将语音和Avatar绑定才能拉伸调整的设定，不过我觉得如果能改成可以单独拉伸调整Avatar的话，用户体验会更好吧。",
+    "processedText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 127,
+      "completion_tokens": 34,
+      "total_tokens": 161,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 127
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007169
+  },
+  {
+    "id": "1750620216479",
+    "timestamp": "2025-06-22T19:23:36.479Z",
+    "originalText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "translatedText": "大概只有这里，目前设定是声音和アバター必须联动调整无法单独修改，不过我觉得如果能实现アバター单独伸缩调节的话，用户体验会更好吧。",
+    "processedText": "ここだけ多分これ、音声とアバターがセットでしか伸ばせないうんといじれないようになってるんですけど、アバターだけ伸ばせるようにして調整できるようにした方がユーザビリティいいんじゃないかと思うんですけど。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 127,
+      "completion_tokens": 36,
+      "total_tokens": 163,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 127
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007389000000000001
+  },
+  {
+    "id": "1750620219723",
+    "timestamp": "2025-06-22T19:23:39.723Z",
+    "originalText": "大概只有这里，目前设定是声音和Avatar必须绑定调整无法单独修改，不过我觉得如果能改成可以单独调整Avatar长度的话，用户体验会更好吧。",
+    "translatedText": "目前大概只有这里设定为声音和Avatar必须绑定调整无法单独修改，不过我觉得如果能改成可以单独调整Avatar长度的话，用户体验会更好吧。",
+    "processedText": "大概只有这里，目前设定是声音和Avatar必须绑定调整无法单独修改，不过我觉得如果能改成可以单独调整Avatar长度的话，用户体验会更好吧。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 99,
+      "completion_tokens": 32,
+      "total_tokens": 131,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 99
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00006193
+  },
+  {
+    "id": "1750620235784",
+    "timestamp": "2025-06-22T19:23:55.784Z",
+    "originalText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "translatedText": "@6 35分33秒\n明白了。技术上因为那里是avatar和语音绑定在一起的，所以单独延长avatar的间隔时间确实比较困难，这点我理解了。这样的话，只要把语音部分增加1秒左右，应该就能达到同样的效果对吧。",
+    "processedText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 154,
+      "completion_tokens": 53,
+      "total_tokens": 207,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 154
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009988000000000001
+  },
+  {
+    "id": "1750620236083",
+    "timestamp": "2025-06-22T19:23:56.083Z",
+    "originalText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "translatedText": "@6 35分33秒\n明白了。技术上因为那里是avatar和语音绑定在一起的，所以单独延长avatar的间隔确实比较困难，这点我理解了。这样的话，只要在语音部分增加1秒左右的时间，应该就能达到同样的效果对吧。",
+    "processedText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 154,
+      "completion_tokens": 53,
+      "total_tokens": 207,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 154
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009988000000000001
+  },
+  {
+    "id": "1750620236879",
+    "timestamp": "2025-06-22T19:23:56.879Z",
+    "originalText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "translatedText": "@6 35分33秒\n明白了。技术上因为那里是avatar和语音绑定在一起的，所以单独延长avatar的间隔时间确实比较困难，这点我理解了。这样的话，只要在语音部分增加1秒左右的时间，应该就能达到同样的效果对吧。",
+    "processedText": "\r\n@6 35 分钟 33 秒\r\nわかりました。まあ、技術的にそこをアバターと音声がセットになっているので、そこでアバターだけ間を伸ばすっていうことが難しいってことですね。あそこは理解しました。なので、音声のところだけなんか1秒プラスみたいなにすればまあ同じことができるってことですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 154,
+      "completion_tokens": 54,
+      "total_tokens": 208,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 154
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00010098
+  },
+  {
+    "id": "1750620259626",
+    "timestamp": "2025-06-22T19:24:19.626Z",
+    "originalText": "はい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "translatedText": "好的。啊，我简单总结一下，针对刚才的问题，作为解决方案，我们计划像ヒンジン那样，通过添加一个稍微延长语音文本部分的功能来解决这个问题。",
+    "processedText": "はい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 147,
+      "completion_tokens": 36,
+      "total_tokens": 183,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 147
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007929000000000001
+  },
+  {
+    "id": "1750620259698",
+    "timestamp": "2025-06-22T19:24:19.698Z",
+    "originalText": "はい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "translatedText": "好的。呃，我简单总结一下，针对刚才的问题，解决方案是准备和Hinjin一样，通过增加一个可以稍微延长音频文本部分的功能来解决这个问题。",
+    "processedText": "はい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 147,
+      "completion_tokens": 35,
+      "total_tokens": 182,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 147
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007819000000000001
+  },
+  {
+    "id": "1750620264874",
+    "timestamp": "2025-06-22T19:24:24.874Z",
+    "originalText": "好的。呃，我简单总结一下，针对刚才的问题，解决方案是准备和Hinjin一样，通过增加一个可以稍微延长音频文本部分的功能来解决这个问题。",
+    "translatedText": "好的。我简单总结一下，针对刚才的问题，解决方案是准备和Hinjin一样，通过增加一个可以稍微延长音频文本部分的功能来解决这个问题。",
+    "processedText": "好的。呃，我简单总结一下，针对刚才的问题，解决方案是准备和Hinjin一样，通过增加一个可以稍微延长音频文本部分的功能来解决这个问题。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 33,
+      "total_tokens": 134,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 101
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00006357000000000002
+  },
+  {
+    "id": "1750620287748",
+    "timestamp": "2025-06-22T19:24:47.748Z",
+    "originalText": "\r\n@5 36 分钟 55 秒\r\nはい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "translatedText": "@5 36分55秒\n好的。呃，简单总结一下，针对刚才的问题，我们计划采取和Hinjin相同的解决方案，也就是通过增加延长音频文本部分的功能来解决这个问题。",
+    "processedText": "\r\n@5 36 分钟 55 秒\r\nはい。ああ、まあちょっとまとめますけれども、まあ、先ほどの問題に対して、まあ解決案としてまあ、ヒンジンと同じように、あのまあ、そのまあ音声、まあテキストのところをまあちょっと伸ばす機能をまあ追加することで、まあ解決する予定です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 161,
+      "completion_tokens": 41,
+      "total_tokens": 202,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 161
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008857000000000001
+  },
+  {
+    "id": "1750620300698",
+    "timestamp": "2025-06-22T19:25:00.698Z",
+    "originalText": "あのフィッシュオーディオとまあOpenAIであればなんかスペースを入れましたら、まあそれがそのままなんか機能的になんか削除。自動的にまあスキップされますので、まあなので、まああのそれを。\r\n@5 37 分钟 42 秒\r\nうん、スペースを入れることではな*、*の新しい機能として、まあちょっと追加することが、まあ、技術的にそれそれが必要です。はい、なんか簡単にスペースを入れることが解決できなさそうなのでは？いちょっとそのまあ、音声を伸ばす機能をまあ追加します。",
+    "translatedText": "那个Fish Audio和OpenAI的话，如果加入空格功能，原本的删除功能就会自动跳过。所以关于那个功能...\n@5 37分42秒\n嗯，不是单纯加空格的问题*，*作为新功能需要稍微追加一些技术上的处理。直接加空格可能解决不了问题？我准备追加一个延长音频的功能。",
+    "processedText": "あのフィッシュオーディオとまあOpenAIであればなんかスペースを入れましたら、まあそれがそのままなんか機能的になんか削除。自動的にまあスキップされますので、まあなので、まああのそれを。\r\n@5 37 分钟 42 秒\r\nうん、スペースを入れることではな*、*の新しい機能として、まあちょっと追加することが、まあ、技術的にそれそれが必要です。はい、なんか簡単にスペースを入れることが解決できなさそうなのでは？いちょっとそのまあ、音声を伸ばす機能をまあ追加します。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 218,
+      "completion_tokens": 71,
+      "total_tokens": 289,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 218
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00013696000000000002
+  },
+  {
+    "id": "1750620326894",
+    "timestamp": "2025-06-22T19:25:26.894Z",
+    "originalText": "はい。あのあ、特にないです。もうあのあとはこちらの今、ボールでえっと同意書待ちなので、それがええ、同意書があできたらすぐに提供するっていうふうな形になります。",
+    "translatedText": "好的。那个...目前没有什么特别的情况。现在这边正在等待ボール的同意书，等同意书准备好后我们会立即提供。",
+    "processedText": "はい。あのあ、特にないです。もうあのあとはこちらの今、ボールでえっと同意書待ちなので、それがええ、同意書があできたらすぐに提供するっていうふうな形になります。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 118,
+      "completion_tokens": 28,
+      "total_tokens": 146,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 118
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00006266
+  },
+  {
+    "id": "1750620340038",
+    "timestamp": "2025-06-22T19:25:40.038Z",
+    "originalText": "二番うん、ああ、その同意書のチェックボックス機能をまあ追加することによって、まあ、もともとまあ、来週の月曜日23日にまあリリース予定なんですけれども、あの25日にまあ変更することになりました。",
+    "translatedText": "嗯，关于第二点，由于要增加那份同意书的复选框功能，原本预定是在下周一23日发布的，现在决定推迟到25日发布了。",
+    "processedText": "二番うん、ああ、その同意書のチェックボックス機能をまあ追加することによって、まあ、もともとまあ、来週の月曜日23日にまあリリース予定なんですけれども、あの25日にまあ変更することになりました。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 132,
+      "completion_tokens": 32,
+      "total_tokens": 164,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 132
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007084
+  },
+  {
+    "id": "1750620374665",
+    "timestamp": "2025-06-22T19:26:14.665Z",
+    "originalText": "ちょっと同意書がもしかしたらあの来週月曜日とかになってしまうかもしれないんですが、あのなるべくちょっとあの来次第すぐにあの提供させていただきます。確認して。",
+    "translatedText": "同意书可能要到下周一才能准备好，不过我们会尽快在收到后立即提供给您。请确认。",
+    "processedText": "ちょっと同意書がもしかしたらあの来週月曜日とかになってしまうかもしれないんですが、あのなるべくちょっとあの来次第すぐにあの提供させていただきます。確認して。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 22,
+      "total_tokens": 136,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 114
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.000054980000000000006
+  },
+  {
+    "id": "1750620401981",
+    "timestamp": "2025-06-22T19:26:41.981Z",
+    "originalText": "わかりました。じゃあもうサイトアップして質問した状態。利用規約とかと同じように、あのユーアールエルを提供してで、それですぐに実装していただけるっていうような、あの認識で合ってますかね？",
+    "translatedText": "明白了。那么现在网站已经上线并处于可提问状态。就像用户协议那样，只要提供那个URL，你们就能立即帮我们实现功能——我这样理解对吗？",
+    "processedText": "わかりました。じゃあもうサイトアップして質問した状態。利用規約とかと同じように、あのユーアールエルを提供してで、それですぐに実装していただけるっていうような、あの認識で合ってますかね？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 122,
+      "completion_tokens": 36,
+      "total_tokens": 158,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 122
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007254000000000001
+  },
+  {
+    "id": "1750620414146",
+    "timestamp": "2025-06-22T19:26:54.146Z",
+    "originalText": "はい、その通りにです。なんか並行でその機能をまあ実現しますので、まあその余裕があるだけはまあ取り替えれば大丈夫です。",
+    "translatedText": "是的，正是如此。这个功能可以通过并行方式实现，所以只要有余力进行替换就没问题。",
+    "processedText": "はい、その通りにです。なんか並行でその機能をまあ実現しますので、まあその余裕があるだけはまあ取り替えれば大丈夫です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 106,
+      "completion_tokens": 21,
+      "total_tokens": 127,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 106
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00005172
+  },
+  {
+    "id": "1750620427343",
+    "timestamp": "2025-06-22T19:27:07.343Z",
+    "originalText": "一応そこの部分に関しては、あのまあ私で判断できなかったっていうのもあったので、この間は一旦あのまあ僕の方ではあのメール配信とかは必要ないっていう風に考えているんですけど、野田さんこのあのワッツニューの機能を。",
+    "translatedText": "关于那部分内容，由于我当时也无法做出判断，所以这次我认为暂时不需要发送邮件通知。野田さん，关于这个WhatsNew功能......",
+    "processedText": "一応そこの部分に関しては、あのまあ私で判断できなかったっていうのもあったので、この間は一旦あのまあ僕の方ではあのメール配信とかは必要ないっていう風に考えているんですけど、野田さんこのあのワッツニューの機能を。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 134,
+      "completion_tokens": 30,
+      "total_tokens": 164,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 134
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00006918000000000001
+  },
+  {
+    "id": "1750620455323",
+    "timestamp": "2025-06-22T19:27:35.323Z",
+    "originalText": "あのうアバモの方で搭載してくださった時に、そのアバモのユーザーのメールアドレス宛にその新機能が追加されるたびに、あのう配信とかを行った方がいいかっていうふうなところがあのう議題として挙がったんですけども、どう考えられますか？っていうところですが。",
+    "translatedText": "在讨论阿巴莫（アバモ）平台搭载功能时，有议题提出是否应该在每次新增功能时，向阿巴莫用户的注册邮箱发送功能推送通知。想请教您对此的看法？",
+    "processedText": "あのうアバモの方で搭載してくださった時に、そのアバモのユーザーのメールアドレス宛にその新機能が追加されるたびに、あのう配信とかを行った方がいいかっていうふうなところがあのう議題として挙がったんですけども、どう考えられますか？っていうところですが。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 146,
+      "completion_tokens": 43,
+      "total_tokens": 189,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 146
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008672000000000001
+  },
+  {
+    "id": "1750620466450",
+    "timestamp": "2025-06-22T19:27:46.450Z",
+    "originalText": "うんうんOK。来週その新しいの機能をリリースしました。なんかインスタントアバターと、まあ温泉コロンの機能がリリースしてから、あの東急様のアカウント、まあライトのアカウント。まあその。\r\n@5 44 分钟 50 秒\r\n機能追加することができますので、その時点でマニュアルとかを提供する必要あるかどうかを確認したいです。",
+    "translatedText": "嗯嗯OK。下周我们发布了那个新功能。就是那个Instant Avatar和温泉colon功能上线后，东急様的账号，也就是light账号。那个嘛。  \n@5 44分50秒  \n可以追加功能了，所以想确认下是否需要在那时候提供操作手册之类的资料。",
+    "processedText": "うんうんOK。来週その新しいの機能をリリースしました。なんかインスタントアバターと、まあ温泉コロンの機能がリリースしてから、あの東急様のアカウント、まあライトのアカウント。まあその。\r\n@5 44 分钟 50 秒\r\n機能追加することができますので、その時点でマニュアルとかを提供する必要あるかどうかを確認したいです。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 172,
+      "completion_tokens": 62,
+      "total_tokens": 234,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 172
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011464
+  },
+  {
+    "id": "1750620503572",
+    "timestamp": "2025-06-22T19:28:23.572Z",
+    "originalText": "扬声器 5\r\n44 分钟 31 秒44:31\r\n@5 44 分钟 31 秒\r\nうんうんOK。来週その新しいの機能をリリースしました。なんかインスタントアバターと、まあ温泉コロンの機能がリリースしてから、あの東急様のアカウント、まあライトのアカウント。まあその。\r\n@5 44 分钟 50 秒\r\n機能追加することができますので、その時点でマニュアルとかを提供する必要あるかどうかを確認したいです。\r\n\r\n扬声器 6\r\n45 分钟 3 秒45:03\r\n@6 45 分钟 3 秒\r\nこの時点で提供する必要はないとは思うんですけど、マニュアルをアップデートしたいので、なんか仕様の。",
+    "translatedText": "发言人5\n44分31秒\n嗯嗯好的。下周我们发布了那个新功能。就是那个即时虚拟形象功能，还有温泉香氛功能上线后，东急集团的账号，就是那个Light账号。关于这个...\n44分50秒\n因为可以追加功能，所以想确认下是否需要在那时候提供操作手册之类的材料。\n\n发言人6\n45分03秒\n我觉得现阶段没必要提供，不过我们想更新手册，就是关于功能规格的...",
+    "processedText": "扬声器 5\r\n44 分钟 31 秒44:31\r\n@5 44 分钟 31 秒\r\nうんうんOK。来週その新しいの機能をリリースしました。なんかインスタントアバターと、まあ温泉コロンの機能がリリースしてから、あの東急様のアカウント、まあライトのアカウント。まあその。\r\n@5 44 分钟 50 秒\r\n機能追加することができますので、その時点でマニュアルとかを提供する必要あるかどうかを確認したいです。\r\n\r\n扬声器 6\r\n45 分钟 3 秒45:03\r\n@6 45 分钟 3 秒\r\nこの時点で提供する必要はないとは思うんですけど、マニュアルをアップデートしたいので、なんか仕様の。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 270,
+      "completion_tokens": 95,
+      "total_tokens": 365,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 270
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00017740000000000003
+  },
+  {
+    "id": "1750620863800",
+    "timestamp": "2025-06-22T19:34:23.800Z",
+    "originalText": "ああ、メンバー、あすみません。撮影はおそらくああ以前、あの提供したあの仕様書と同じ流れなんですけれども、あのUIのその操作については、もし必要であればその説明をはい提供します。",
+    "translatedText": "啊，各位成员，不好意思。拍摄流程大概会按照之前提供的那份规格书来进行，不过关于UI操作部分，如果需要的话我们可以提供说明。",
+    "processedText": "ああ、メンバー、あすみません。撮影はおそらくああ以前、あの提供したあの仕様書と同じ流れなんですけれども、あのUIのその操作については、もし必要であればその説明をはい提供します。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 127,
+      "completion_tokens": 32,
+      "total_tokens": 159,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 127
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00006949
+  },
+  {
+    "id": "1750620911581",
+    "timestamp": "2025-06-22T19:35:11.581Z",
+    "originalText": "\r\n扬声器 6\r\n47 分钟 43 秒47:43\r\n@6 47 分钟 43 秒\r\nはい。あのもしあれば助かります。しまあもしなかったとしても、我々の方で使ってみて、もうそれでスクリーンショット撮ってマニュアルに起こすこともできるのでは？いまあ、そこはあのそこで結構リソースかかってしまうのであれば、はい開発の方を優先していただいていいのではい。",
+    "translatedText": "好的。那个如果有的话就帮大忙了。不过即使没有的话，我们这边也可以先试用，然后截图做成操作手册吧？现在，如果那边需要耗费大量资源的话，可以优先进行开发工作。",
+    "processedText": "\r\n扬声器 6\r\n47 分钟 43 秒47:43\r\n@6 47 分钟 43 秒\r\nはい。あのもしあれば助かります。しまあもしなかったとしても、我々の方で使ってみて、もうそれでスクリーンショット撮ってマニュアルに起こすこともできるのでは？いまあ、そこはあのそこで結構リソースかかってしまうのであれば、はい開発の方を優先していただいていいのではい。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 181,
+      "completion_tokens": 45,
+      "total_tokens": 226,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 181
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009837000000000001
+  },
+  {
+    "id": "1750620925897",
+    "timestamp": "2025-06-22T19:35:25.897Z",
+    "originalText": "結局、その場合って品質がかなり下がるのと背景がもうセットでどうしてもこうあの切りその人物だけ切り抜けないっていうことになるんですかねっていうそこだけちょっと私がまだわかってない？\r\n@6 49 分钟 4 秒\r\n伝わってますか？すいません。",
+    "translatedText": "最终在这种情况下，画质会大幅下降，而且背景和人物已经固定在一起，无论如何都无法单独把那个人物抠出来——是这个意思吗？这一点我还不太明白。@6 49分4秒\n您能明白我的意思吗？抱歉。",
+    "processedText": "結局、その場合って品質がかなり下がるのと背景がもうセットでどうしてもこうあの切りその人物だけ切り抜けないっていうことになるんですかねっていうそこだけちょっと私がまだわかってない？\r\n@6 49 分钟 4 秒\r\n伝わってますか？すいません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 144,
+      "completion_tokens": 52,
+      "total_tokens": 196,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 144
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009608
+  },
+  {
+    "id": "1750620985995",
+    "timestamp": "2025-06-22T19:36:25.995Z",
+    "originalText": "原文 (ja): 結局、その場合って品質がかなり下がるのと背景がもうセットでどうしてもこうあの切りその人物だけ切り抜けないっていうことになるんですかねっていうそこだけちょっと私がまだわかってない？ @6 49 分钟 4 秒 伝わってますか？すいません。",
+    "translatedText": "最终在这种情况下，画质会大幅下降，而且背景和人物必须绑定在一起，无论如何都无法单独抠出那个人物——是这个意思吗？只有这一点我还不太明白？@6 49分4秒 您能理解我的意思吗？抱歉。",
+    "processedText": "原文 (ja): 結局、その場合って品質がかなり下がるのと背景がもうセットでどうしてもこうあの切りその人物だけ切り抜けないっていうことになるんですかねっていうそこだけちょっと私がまだわかってない？ @6 49 分钟 4 秒 伝わってますか？すいません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 146,
+      "completion_tokens": 52,
+      "total_tokens": 198,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 146
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009662
+  },
+  {
+    "id": "1750621242570",
+    "timestamp": "2025-06-22T19:40:42.570Z",
+    "originalText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "translatedText": "是的。如果使用实拍第一个实拍的背景，那么该背景与阿凡达就会固定成一套组合，这样就无法切换背景了。\n\n@5 51分45秒\n另外还有个方案。如果用户觉得绿幕操作比较困难的话，我们也提供了最后那个白楼背景——就是纯白背景的上传方式。",
+    "processedText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 183,
+      "completion_tokens": 68,
+      "total_tokens": 251,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 183
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00012421
+  },
+  {
+    "id": "1750621264832",
+    "timestamp": "2025-06-22T19:41:04.832Z",
+    "originalText": "译文 (zh): 是的。如果使用实拍第一个实拍的背景，那么该背景与阿凡达就会固定成一套组合，这样就无法切换背景了。 \n@5 51分45秒 另外还有个方案。如果用户觉得绿幕操作比较困难的话，我们也提供了最后那个白楼背景——就是纯白背景的上传方式。",
+    "translatedText": "是的。如果采用实拍场景中的第一个实拍背景，该背景就会与阿凡达固定绑定，无法再进行背景切换。\n@5 51分45秒 我们还准备了备选方案。对于觉得绿幕操作困难的用户，可以提供最后那个白色建筑背景——也就是纯色背景的上传模式。",
+    "processedText": "译文 (zh): 是的。如果使用实拍第一个实拍的背景，那么该背景与阿凡达就会固定成一套组合，这样就无法切换背景了。 \n@5 51分45秒 另外还有个方案。如果用户觉得绿幕操作比较困难的话，我们也提供了最后那个白楼背景——就是纯白背景的上传方式。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 140,
+      "completion_tokens": 65,
+      "total_tokens": 205,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 140
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.0001093
+  },
+  {
+    "id": "1750621392530",
+    "timestamp": "2025-06-22T19:43:12.530Z",
+    "originalText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "translatedText": "这样一来，如果用比较漂亮的背景拍摄，系统就会自动将背景和人物分离。虽然通过算法也能实现分离，但效果应该会比绿幕（グリーンパック）更好些。不过可能会让头发等细节看起来稍微有些不自然。",
+    "processedText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 159,
+      "completion_tokens": 50,
+      "total_tokens": 209,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 159
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009793
+  },
+  {
+    "id": "1750621538469",
+    "timestamp": "2025-06-22T19:45:38.469Z",
+    "originalText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "translatedText": "是的。如果使用实拍场景的第一个实拍背景，那么该背景与阿凡达就会直接绑定成一套组合，这样就无法切换背景了。  \n@5 51分45秒  \n另外还有个方案。如果用户觉得绿幕操作比较困难的话，也可以选择上传纯白背景——比如最后那个白色大楼背景之类的白色背景素材。  \n\n（注：根据要求保留\"@5 51分45秒\"时间戳及\"阿凡达\"专有名词，采用\"绿幕\"等影视行业通用译法，将长句拆分为符合中文表达习惯的短句）",
+    "processedText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 183,
+      "completion_tokens": 126,
+      "total_tokens": 309,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 183
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00018801
+  },
+  {
+    "id": "1750621659945",
+    "timestamp": "2025-06-22T19:47:39.945Z",
+    "originalText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "translatedText": "这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。  \n@5 52分25秒  \n可能会让头发等细节显得有些不自然。",
+    "processedText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 159,
+      "completion_tokens": 59,
+      "total_tokens": 218,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 31
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00010783
+  },
+  {
+    "id": "1750621675596",
+    "timestamp": "2025-06-22T19:47:55.596Z",
+    "originalText": "🎯 剪贴板监听已启动 - 复制文本将自动翻译\r\n\r\n[03:47:32] 📋 检测到剪贴板内容\r\n\r\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\r\n\r\n原文 (ja): そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。 @5 52 分钟 25 秒 おそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。\r\n\r\n🔧 已对译文应用自动格式化 (@符号换行)\r\n\r\n译文 (zh): 这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。 @5 52分25秒 可能会让头发等细节显得有些不自然。\r\n\r\n本次成本: $0.0001 (输入:159 输出:59 tokens)\r\n\r\n===================================================",
+    "translatedText": "这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。 @5 52分25秒 可能会让头发等细节显得有些不自然。",
+    "processedText": "🎯 剪贴板监听已启动 - 复制文本将自动翻译\r\n\r\n[03:47:32] 📋 检测到剪贴板内容\r\n\r\n🎯 自动翻译完成 (DeepSeek V3-0324 🔥)\r\n\r\n原文 (ja): そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。 @5 52 分钟 25 秒 おそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。\r\n\r\n🔧 已对译文应用自动格式化 (@符号换行)\r\n\r\n译文 (zh): 这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。 @5 52分25秒 可能会让头发等细节显得有些不自然。\r\n\r\n本次成本: $0.0001 (输入:159 输出:59 tokens)\r\n\r\n===================================================",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 338,
+      "completion_tokens": 58,
+      "total_tokens": 396,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 338
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00015506
+  },
+  {
+    "id": "1750621684971",
+    "timestamp": "2025-06-22T19:48:04.971Z",
+    "originalText": "译文 (zh): 这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。 @5 52分25秒 可能会让头发等细节显得有些不自然。",
+    "translatedText": "这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。@5 52分25秒 可能会让头发等细节显得有些不自然。",
+    "processedText": "译文 (zh): 这样一来，如果用那种漂亮的背景拍摄，系统就会自动把背景和人物分离出来。当然，通过算法也能实现分离，但效果比绿幕（グリーンパック）要差些。 @5 52分25秒 可能会让头发等细节显得有些不自然。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 129,
+      "completion_tokens": 58,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 129
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009863
+  },
+  {
+    "id": "1750621884021",
+    "timestamp": "2025-06-22T19:51:24.021Z",
+    "originalText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "translatedText": "是的。如果使用实拍素材作为第一个实拍背景的话，由于该背景与Avatar会直接绑定成套装，所以无法切换背景。@5 51分45秒  \n另外还有一种方案。如果用户觉得绿幕抠像操作比较困难的话，也可以选择上传纯白背景——比如最后那个白色大楼背景之类的素材。",
+    "processedText": "そうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 183,
+      "completion_tokens": 70,
+      "total_tokens": 253,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 55
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00012641
+  },
+  {
+    "id": "1750621906961",
+    "timestamp": "2025-06-22T19:51:46.961Z",
+    "originalText": "扬声器 5\r\n51 分钟 30 秒51:30\r\n@5 51 分钟 30 秒\r\nそうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。\r\n\r\n扬声器 6\r\n51 分钟 58 秒51:58\r\n@6 51 分钟 58 秒\r\nはい。\r\n\r\n扬声器 5\r\n52 分钟 5 秒52:05\r\n@5 52 分钟 5 秒\r\nそうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "translatedText": "扬声器5\n51分30秒\n是的。如果使用实拍场景的第一个实拍背景，该背景与avatar就会固定绑定，因此无法切换背景。\n51分45秒\n另外还有个方案。如果用户觉得绿幕操作比较困难的话，也可以采用最后那个白色建筑背景——就是上传纯白背景的方法。\n\n扬声器6\n51分58秒\n好的。\n\n扬声器5\n52分05秒\n这样的话，如果用精美背景拍摄，就能自动分离背景和人物。虽然也可以通过算法实现分离，但相比绿幕方案...\n52分25秒\n可能在发丝等细节的自然度上会稍逊一筹。",
+    "processedText": "扬声器 5\r\n51 分钟 30 秒51:30\r\n@5 51 分钟 30 秒\r\nそうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。\r\n\r\n扬声器 6\r\n51 分钟 58 秒51:58\r\n@6 51 分钟 58 秒\r\nはい。\r\n\r\n扬声器 5\r\n52 分钟 5 秒52:05\r\n@5 52 分钟 5 秒\r\nそうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 382,
+      "completion_tokens": 132,
+      "total_tokens": 514,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 382
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00024834000000000005
+  },
+  {
+    "id": "1750621930227",
+    "timestamp": "2025-06-22T19:52:10.227Z",
+    "originalText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "translatedText": "这样一来，如果用比较漂亮的背景拍摄，系统就会自动将人物和背景分离。虽然通过算法也能实现分割，但效果应该会比绿幕（グリーンパック）更好些。  \n不过可能会让头发等细节看起来稍微有些不自然。",
+    "processedText": "そうするとなんかまあきれいな背景で撮影しましたら、自動的に背景となんか人物を切り分ける。まあ、アルゴリズムで切り分けることも可能ですけれども、なんかグリーンパックより。\r\n@5 52 分钟 25 秒\r\nおそらくちょっとなんか髪の毛とか自然度が落ちるかもしれません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 159,
+      "completion_tokens": 51,
+      "total_tokens": 210,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 31
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00009903
+  },
+  {
+    "id": "1750621975534",
+    "timestamp": "2025-06-22T19:52:55.534Z",
+    "originalText": "\r\n扬声器 5\r\n51 分钟 30 秒51:30\r\n@5 51 分钟 30 秒\r\nそうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "translatedText": "是的。如果使用实拍第一个实拍的背景，那么该背景与阿凡达就会固定成一套组合，这样就无法切换背景了。  \n另外还有一个方案。如果用户觉得绿幕操作比较困难的话，也可以采用最后那个白楼背景——就是上传纯白背景的方法。  \n\n（说明：根据要求处理如下：  \n1. 保留\"阿凡达\"等专有名词  \n2. 将\"グリーンアック\"译为行业通用术语\"绿幕\"  \n3. 拆分长句为符合中文表达习惯的短句  \n4. 补充\"——\"等连接符号保持语义连贯  \n5. 使用\"方案\"\"操作\"等符合技术文档语境的词汇）",
+    "processedText": "\r\n扬声器 5\r\n51 分钟 30 秒51:30\r\n@5 51 分钟 30 秒\r\nそうです。もしなんか実写一つ目の実写の背景を使いましたら、その背景とアバダはそのままセットになりますので、背景を切り替えることが。\r\n@5 51 分钟 45 秒\r\nできません。あのまあもう一個。まあ、もしあのユーザーがちょっとグリーンアックの場合がちょっと難しいであれば、あの白ビルの背景なんか最後の一つのあのまあ白背景というのアップロード方法もありまして。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 215,
+      "completion_tokens": 150,
+      "total_tokens": 365,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 215
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00022305
+  },
+  {
+    "id": "1750622011709",
+    "timestamp": "2025-06-22T19:53:31.709Z",
+    "originalText": "ああ。\r\n@5 54 分钟 4 秒\r\nあのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "translatedText": "啊。  \n@5 54分钟4秒  \n那个嘛，用AE这类专业编程软件处理阿尔法通道（alpha channel）。简单来说目的就是要把人物和...嗯...背景分离出来。  \n@5 54分钟22秒  \n可以从专业程序生成阿尔法通道数据来直接使用。不过也不是非得靠算法，手动处理完再上传也是可以的。  \n\n（注：根据要求保留\"AE\"专有名词不译，\"アルファチャンネル\"采用行业通用译法\"阿尔法通道\"，并通过括号标注原文）",
+    "processedText": "ああ。\r\n@5 54 分钟 4 秒\r\nあのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 205,
+      "completion_tokens": 115,
+      "total_tokens": 320,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 205
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00018185
+  },
+  {
+    "id": "1750622047808",
+    "timestamp": "2025-06-22T19:54:07.808Z",
+    "originalText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "translatedText": "就是那种情况对吧？已经有公司在打造aiai这样的艺人，或者说AI模型了，他们想要直接使用这个现成的模型。  \n@6 55分24秒  \n是想把这个模型直接作为虚拟形象用在avamo平台上，所以要把数据迁移过来——是这个意思吧？确实存在这类需求呢。",
+    "processedText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 160,
+      "completion_tokens": 64,
+      "total_tokens": 224,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 160
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011360000000000001
+  },
+  {
+    "id": "1750622197955",
+    "timestamp": "2025-06-22T19:56:37.955Z",
+    "originalText": "うんうんうん。\r\n@6 58 分钟 36 秒\r\nわかりました。はい。あ、理解できました。ちょっと金橋さんと岩渕さんなんですけど、今お話しいただいた内容めちゃくちゃ大事なので、ちょっとそれをマニュアルに落とし込みましょうか？",
+    "translatedText": "嗯嗯嗯。\n@6 58分36秒\n明白了。好的。啊，我理解了。关于金橋さん和岩渕さん的情况，刚才您讲述的内容非常重要，我们是不是应该把这些要点整理成操作手册呢？",
+    "processedText": "うんうんうん。\r\n@6 58 分钟 36 秒\r\nわかりました。はい。あ、理解できました。ちょっと金橋さんと岩渕さんなんですけど、今お話しいただいた内容めちゃくちゃ大事なので、ちょっとそれをマニュアルに落とし込みましょうか？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 140,
+      "completion_tokens": 49,
+      "total_tokens": 189,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 140
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.0000917
+  },
+  {
+    "id": "1750622212587",
+    "timestamp": "2025-06-22T19:56:52.587Z",
+    "originalText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "translatedText": "非常感谢。\n@6 59分51秒\n关于岩渕先生和福山先生，我觉得可以给申请了GreenBack法人方案的用户免费赠送些礼品之类的。",
+    "processedText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 135,
+      "completion_tokens": 36,
+      "total_tokens": 171,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 135
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007605
+  },
+  {
+    "id": "1750622232459",
+    "timestamp": "2025-06-22T19:57:12.459Z",
+    "originalText": "Yes。\r\n@7 1 小时 28 秒\r\nちょっとその辺テストしあ、テスセントさん側でその辺のあのアイフォンで撮った場合と、あのプロのカメラマンに撮ってもらった場合で、どんだけ質が変わるかみたいなってテストされてますか？",
+    "translatedText": "好的。\n@7 1小时28秒\n请问Tescent那边有测试过用iPhone拍摄和专业摄影师拍摄在画质上会差多少吗？",
+    "processedText": "Yes。\r\n@7 1 小时 28 秒\r\nちょっとその辺テストしあ、テスセントさん側でその辺のあのアイフォンで撮った場合と、あのプロのカメラマンに撮ってもらった場合で、どんだけ質が変わるかみたいなってテストされてますか？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 145,
+      "completion_tokens": 32,
+      "total_tokens": 177,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 145
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007435
+  },
+  {
+    "id": "1750622251811",
+    "timestamp": "2025-06-22T19:57:31.811Z",
+    "originalText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "translatedText": "非常感谢。\n@6 59分51秒\n关于岩渕先生和福山先生的情况，我觉得可以给申请了GreenBack法人方案的用户免费赠送些礼品之类的。",
+    "processedText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 135,
+      "completion_tokens": 37,
+      "total_tokens": 172,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007715
+  },
+  {
+    "id": "1750622384189",
+    "timestamp": "2025-06-22T19:59:44.189Z",
+    "originalText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "translatedText": "就是那种情况对吧？已经有公司在做aiai这类AI艺人或者说AI模特了，他们想要直接使用这个现成的模特。\n@6 55分24秒\n因为他们想直接在avamo平台上把这个模特原封不动地用作虚拟形象，所以要把数据迁移过来。就是这种需求对吧？说的就是这种情况吧。",
+    "processedText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 160,
+      "completion_tokens": 67,
+      "total_tokens": 227,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 32
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011690000000000001
+  },
+  {
+    "id": "1750622410475",
+    "timestamp": "2025-06-22T20:00:10.475Z",
+    "originalText": "あのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "translatedText": "那个嘛，AE之类的专业编程软件可以生成阿尔法通道。说到底主要目的就是为了把人物和背景分离出来。  \n@5 54分22秒  \n通过专业程序生成的阿尔法通道，就可以实现这个效果。虽然不用算法处理，手动操作后直接上传也是可行的。",
+    "processedText": "あのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 60,
+      "total_tokens": 248,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 188
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00011676000000000001
+  },
+  {
+    "id": "1750622606043",
+    "timestamp": "2025-06-22T20:03:26.043Z",
+    "originalText": "\r\n扬声器 6\r\n55 分钟 13 秒55:13\r\n@6 55 分钟 13 秒\r\nとかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "translatedText": "扬声器6\n55分13秒\n@6 55分13秒\n比如说这种情况对吧？已经有公司在打造aiai艺人或者说AI模特了，想要直接使用这个现成的模特。\n@6 55分24秒\n是想把这个现成的模特直接作为虚拟形象在avamo平台上使用，所以要进行数据迁移对吧。就是这种需求没错吧。",
+    "processedText": "\r\n扬声器 6\r\n55 分钟 13 秒55:13\r\n@6 55 分钟 13 秒\r\nとかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 75,
+      "total_tokens": 267,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 192
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00013434
+  },
+  {
+    "id": "1750622629760",
+    "timestamp": "2025-06-22T20:03:49.760Z",
+    "originalText": "扬声器 5\r\n57 分钟 16 秒57:16\r\n@5 57 分钟 16 秒\r\nあもしあの宮崎銀行がすでにまずそのアウダエクスポートするときに、そのアルファチャンネルをサポートできれば、確かにそのままはい、使うことが可能です。うん。\r\n\r\n扬声器 6\r\n57 分钟 28 秒57:28\r\n@6 57 分钟 28 秒\r\nうん。\r\n@6 57 分钟 30 秒\r\nわかりました。2階です。あともう一点だけえっと。写真アバターでも考え方は同じですか？グリーンバックでえっと写真を撮影すれば、ええ、背景を切り抜けるっていうところですか？",
+    "translatedText": "扬声器5  \n57分16秒  \n@5 57分16秒  \n如果宫崎银行在导出Auda时能支持Alpha通道的话，确实可以直接使用。嗯。  \n\n扬声器6  \n57分28秒  \n@6 57分28秒  \n嗯。  \n@6 57分30秒  \n明白了。二楼。另外还有一点就是，照片头像的处理思路也是一样的吗？用绿幕拍摄照片后，是不是也能实现背景抠图？",
+    "processedText": "扬声器 5\r\n57 分钟 16 秒57:16\r\n@5 57 分钟 16 秒\r\nあもしあの宮崎銀行がすでにまずそのアウダエクスポートするときに、そのアルファチャンネルをサポートできれば、確かにそのままはい、使うことが可能です。うん。\r\n\r\n扬声器 6\r\n57 分钟 28 秒57:28\r\n@6 57 分钟 28 秒\r\nうん。\r\n@6 57 分钟 30 秒\r\nわかりました。2階です。あともう一点だけえっと。写真アバターでも考え方は同じですか？グリーンバックでえっと写真を撮影すれば、ええ、背景を切り抜けるっていうところですか？",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 252,
+      "completion_tokens": 98,
+      "total_tokens": 350,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 252
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00017584000000000002
+  },
+  {
+    "id": "1750622646022",
+    "timestamp": "2025-06-22T20:04:06.022Z",
+    "originalText": "扬声器 5\r\n58 分钟 21 秒58:21\r\n@5 58 分钟 21 秒\r\nあの写真アバターはサポートできないです。あのアバターとその背景は一つセットとして使いますので、まあ背景を切り替えることがかんできません。",
+    "translatedText": "扬声器5  \n58分21秒58:21  \n@5 58分21秒  \n那个照片头像无法支持使用。因为该头像和背景是成套使用的，所以无法切换背景。",
+    "processedText": "扬声器 5\r\n58 分钟 21 秒58:21\r\n@5 58 分钟 21 秒\r\nあの写真アバターはサポートできないです。あのアバターとその背景は一つセットとして使いますので、まあ背景を切り替えることがかんできません。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 138,
+      "completion_tokens": 41,
+      "total_tokens": 179,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 138
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00008236
+  },
+  {
+    "id": "1750622660078",
+    "timestamp": "2025-06-22T20:04:20.078Z",
+    "originalText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "translatedText": "非常感谢。\n@6 59分51秒\n关于岩渕先生和福山先生，我觉得可以给申请了GreenBack法人方案的用户免费赠送些礼品之类的。",
+    "processedText": "ありがとうございます。\r\n@6 59 分钟 51 秒\r\nなんか岩渕さんと福山さんなんですけど、なんかグリーンバックなんか法人プラン申し込んでいただいた方になんか無料でプレゼントとかするといいかも。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 135,
+      "completion_tokens": 36,
+      "total_tokens": 171,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007605
+  },
+  {
+    "id": "1750622831327",
+    "timestamp": "2025-06-22T20:07:11.327Z",
+    "originalText": "あのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "translatedText": "原文：嗯，AE等专业的编程中，有什么关于alpha通道的东西。总之，目的是想把人物和背景分开，所以，嗯。  \n@5 54 分钟 22 秒  \n嗯，从专业程序中输出的alpha通道，嗯，这样做是可以的。嗯，不是通过算法，而是可以手动处理后再上传。",
+    "processedText": "あのまあAEなどその専門のプログラミングで、なんかアルファチャンネル。あのまあまあ要はその目的はあのまあ人物と。まあ背景を切り分けたいので、まあその。\r\n@5 54 分钟 22 秒\r\nまあ、専門のプログラムから、あの出したアルファチャンネルで、まあそれをはいやります。まあ、アルゴリズムではなくて、なんか手動でそれをやってからアップロードすることも可能です。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 204,
+      "completion_tokens": 82,
+      "total_tokens": 286,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "model": "GPT-4o Mini",
+    "cached": false,
+    "cost": 0.00007979999999999999
+  },
+  {
+    "id": "1750622839966",
+    "timestamp": "2025-06-22T20:07:19.966Z",
+    "originalText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "translatedText": "这就是所谓的吧？已经有公司在制作aiai人才，也就是AI模型，他们似乎想直接使用这个模型。  \n@6 55 分钟 24 秒  \n因为想要在avamo上直接使用这个模型作为头像，所以想要转移过来，这就是他们的需求，对吧？",
+    "processedText": "とかあれですよね？もうすでにaiaiタレントというか、AIモデルを作ってる会社さんで、このモデルさんそのまま使いたいみたいな。\r\n@6 55 分钟 24 秒\r\nこのモデルさんをそのままアバターでavamo上で使いたいから移してくるみたいな、そういうことですよね。そういうニーズですよね。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 177,
+      "completion_tokens": 66,
+      "total_tokens": 243,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "model": "GPT-4o Mini",
+    "cached": false,
+    "cost": 0.00006615
+  },
+  {
+    "id": "1750622853537",
+    "timestamp": "2025-06-22T20:07:33.537Z",
+    "originalText": "になっていますので、まあそれはえっと？まあ、アップロードするときに、あのまあ専門のあ、ソフトウェアでまあ処理すること。まあ、自分でなんかまあ、例えばあの白背景で、ちょっとなんか満足できない場合、あの手動でその。",
+    "translatedText": "因为是这样的情况，嗯...那个...在上传的时候，用专门的软件进行处理就行。如果自己觉得不太满意，比如说白色背景不太理想的话，可以手动调整那个部分。",
+    "processedText": "になっていますので、まあそれはえっと？まあ、アップロードするときに、あのまあ専門のあ、ソフトウェアでまあ処理すること。まあ、自分でなんかまあ、例えばあの白背景で、ちょっとなんか満足できない場合、あの手動でその。",
+    "sourceLang": "ja",
+    "targetLang": "zh",
+    "replacements": [],
+    "usage": {
+      "prompt_tokens": 138,
+      "completion_tokens": 37,
+      "total_tokens": 175,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 138
+    },
+    "model": "DeepSeek V3-0324 🔥",
+    "cached": false,
+    "cost": 0.00007795999999999999
+  }
+]

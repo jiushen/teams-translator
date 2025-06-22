@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams翻译助手 v2.1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 头部 -->
+    <header>
+      <h1>Teams实时翻译助手 v2.1</h1>
+      <div class="status-bar" id="statusBar">就绪</div>
+    </header>
+
+    <!-- 标签页导航 -->
+    <nav class="tab-nav">
+      <button class="tab-button active" onclick="switchTab('translate')">翻译</button>
+      <button class="tab-button" onclick="switchTab('config')">配置</button>
+      <button class="tab-button" onclick="switchTab('history')">历史</button>
+    </nav>
+
+    <!-- 翻译标签页 -->
+    <div id="translateTab" class="tab-content active">
+      <!-- 翻译设置 -->
+      <section class="settings-section">
+        <h2>翻译设置</h2>
+        
+        <div class="settings-row">
+          <div class="setting-group">
+            <label>源语言:</label>
+            <select id="sourceLang" onchange="saveConfig()">
+              <option value="auto">自动检测</option>
+              <option value="ja" selected>日语</option>
+              <option value="zh">中文</option>
+              <option value="en">英语</option>
+            </select>
+          </div>
+          <div class="setting-group">
+            <label>目标语言:</label>
+            <select id="targetLang" onchange="saveConfig()">
+              <option value="zh" selected>中文</option>
+              <option value="ja">日语</option>
+              <option value="en">英语</option>
+            </select>
+          </div>
+          <button class="swap-btn" onclick="swapLanguages()">🔄 切换</button>
+          <div class="setting-group">
+            <label>AI模型:</label>
+            <select id="modelSelect" onchange="updateModelInfo()">
+              <option value="deepseek-v3-0324">DeepSeek V3-0324 🔥</option>
+              <option value="deepseek-r1-0528">DeepSeek R1-0528 🚀</option>
+              <option value="gpt-4o-mini">GPT-4o Mini</option>
+              <option value="gpt-4o">GPT-4o (最新)</option>
+              <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 模型信息显示 -->
+        <div id="modelInfo" class="model-info-inline"></div>
+
+        <!-- 成本显示 -->
+        <div class="cost-display">
+          <span id="costInfo">本次会话成本: $0.00</span>
+          <button onclick="resetCost()">重置统计</button>
+        </div>
+        
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="clipboardMonitor" checked onchange="toggleClipboardMonitor()">
+            剪贴板监听翻译
+          </label>
+
+          <label>
+            <input type="checkbox" id="autoCopyResult" onchange="saveConfig()">
+            自动复制结果
+          </label>
+        </div>
+      </section>
+
+      <!-- 可折叠的输入区域 -->
+      <section class="input-section">
+        <div class="section-header" onclick="toggleInputSection()">
+          <h2>文本输入</h2>
+          <span class="collapse-icon" id="inputCollapseIcon">▼</span>
+        </div>
+        <div id="inputContent" class="collapsible-content collapsed">
+          <textarea id="inputText" placeholder="在此输入或粘贴要翻译的文本..."></textarea>
+          <div class="button-group">
+            <button onclick="translateText()">翻译文本</button>
+            <button onclick="clearInput()">清空输入</button>
+            <button onclick="batchTranslate()">批量翻译</button>
+            <button onclick="pasteAndTranslate()">粘贴翻译</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 结果显示 -->
+      <section class="result-section">
+        <h2>翻译结果</h2>
+        <div class="result-controls">
+          <label>
+            <input type="radio" name="resultMode" value="append" checked>
+            追加显示
+          </label>
+          <label>
+            <input type="radio" name="resultMode" value="clear">
+            清空显示
+          </label>
+          <button onclick="copyResults()">复制结果</button>
+          <button onclick="clearResults()">清空结果</button>
+        </div>
+        <div id="resultText" class="result-text"></div>
+      </section>
+    </div>
+
+    <!-- 配置标签页 -->
+    <div id="configTab" class="tab-content">
+      <!-- API配置 -->
+      <section class="config-section">
+        <h2>API配置</h2>
+        <div class="config-group">
+          <label>OpenAI API Key:</label>
+          <input type="password" id="openaiKey" placeholder="sk-..." onchange="saveConfig()">
+          <button onclick="toggleKeyVisibility('openaiKey')">显示</button>
+        </div>
+        <div class="config-group">
+          <label>DeepSeek API Key:</label>
+          <input type="password" id="deepseekKey" placeholder="sk-..." onchange="saveConfig()">
+          <button onclick="toggleKeyVisibility('deepseekKey')">显示</button>
+        </div>
+      </section>
+
+      <!-- 翻译Prompt配置 -->
+      <section class="prompt-section">
+        <h2>翻译Prompt配置</h2>
+        <p class="section-description">自定义翻译时使用的AI提示词，可以调整翻译风格和要求。</p>
+        
+        <div class="prompt-config">
+          <div class="prompt-group">
+            <label>系统提示词:</label>
+            <textarea id="systemPrompt" rows="2" placeholder="你是专业的翻译助手..." onchange="saveConfig()"></textarea>
+          </div>
+          
+          <div class="prompt-group">
+            <label>用户提示词模板:</label>
+            <textarea id="userPromptTemplate" rows="6" placeholder="请将以下{sourceLang}文本翻译成{targetLang}..." onchange="saveConfig()"></textarea>
+            <div class="prompt-help">
+              <small>可用变量: {sourceLang} {targetLang} {text}</small>
+            </div>
+          </div>
+          
+          <div class="prompt-actions">
+            <button onclick="resetDefaultPrompt()" class="secondary-button">恢复默认</button>
+            <button onclick="testPrompt()" class="secondary-button">测试提示词</button>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- 术语词典 -->
+      <section class="terms-section">
+        <h2>术语词典管理</h2>
+        <p class="section-description">自定义术语词典可以提高翻译的准确性，特别是专有名词和公司术语。</p>
+        <div class="button-group">
+          <button onclick="openTermsEditor()" class="primary-button">编辑术语词典</button>
+          <button onclick="importPresetTerms()" class="secondary-button">导入预设术语</button>
+        </div>
+        <div class="terms-stats">
+          <span id="termsCount">当前术语数量: 0</span>
+        </div>
+      </section>
+
+      <!-- 样式设置 -->
+      <section class="style-section">
+        <h2>翻译结果样式设置</h2>
+        <p class="section-description">自定义翻译结果中不同文本类型的字体、大小和颜色。</p>
+        
+        <div class="style-config-grid">
+          <!-- 原文样式 -->
+          <div class="style-group">
+            <h3>原文样式</h3>
+            <div class="style-controls">
+              <label>字体:</label>
+              <select id="originalFontFamily" onchange="updateResultStyles()">
+                <option value="Consolas, Monaco, monospace">Consolas (等宽)</option>
+                <option value="Arial, sans-serif">Arial (无衬线)</option>
+                <option value="'Times New Roman', serif">'Times New Roman' (衬线)</option>
+                <option value="'Microsoft YaHei', sans-serif">微软雅黑 (中文)</option>
+              </select>
+              
+              <label>大小:</label>
+              <input type="number" id="originalFontSize" min="10" max="24" value="14" onchange="updateResultStyles()">
+              
+              <label>颜色:</label>
+              <input type="color" id="originalColor" value="#0056b3" onchange="updateResultStyles()">
+              
+              <label>粗细:</label>
+              <select id="originalFontWeight" onchange="updateResultStyles()">
+                <option value="normal">正常</option>
+                <option value="bold" selected>粗体</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 译文样式 -->
+          <div class="style-group">
+            <h3>译文样式</h3>
+            <div class="style-controls">
+              <label>字体:</label>
+              <select id="translationFontFamily" onchange="updateResultStyles()">
+                <option value="Consolas, Monaco, monospace">Consolas (等宽)</option>
+                <option value="Arial, sans-serif">Arial (无衬线)</option>
+                <option value="'Times New Roman', serif">'Times New Roman' (衬线)</option>
+                <option value="'Microsoft YaHei', sans-serif">微软雅黑 (中文)</option>
+              </select>
+              
+              <label>大小:</label>
+              <input type="number" id="translationFontSize" min="10" max="24" value="14" onchange="updateResultStyles()">
+              
+              <label>颜色:</label>
+              <input type="color" id="translationColor" value="#28a745" onchange="updateResultStyles()">
+              
+              <label>粗细:</label>
+              <select id="translationFontWeight" onchange="updateResultStyles()">
+                <option value="normal" selected>正常</option>
+                <option value="bold">粗体</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 时间戳样式 -->
+          <div class="style-group">
+            <h3>时间戳样式</h3>
+            <div class="style-controls">
+              <label>字体:</label>
+              <select id="timestampFontFamily" onchange="updateResultStyles()">
+                <option value="Consolas, Monaco, monospace">Consolas (等宽)</option>
+                <option value="Arial, sans-serif">Arial (无衬线)</option>
+                <option value="'Times New Roman', serif">'Times New Roman' (衬线)</option>
+                <option value="'Microsoft YaHei', sans-serif">微软雅黑 (中文)</option>
+              </select>
+              
+              <label>大小:</label>
+              <input type="number" id="timestampFontSize" min="8" max="18" value="12" onchange="updateResultStyles()">
+              
+              <label>颜色:</label>
+              <input type="color" id="timestampColor" value="#6c757d" onchange="updateResultStyles()">
+            </div>
+          </div>
+
+          <!-- 成本信息样式 -->
+          <div class="style-group">
+            <h3>成本信息样式</h3>
+            <div class="style-controls">
+              <label>字体:</label>
+              <select id="costFontFamily" onchange="updateResultStyles()">
+                <option value="Consolas, Monaco, monospace">Consolas (等宽)</option>
+                <option value="Arial, sans-serif">Arial (无衬线)</option>
+                <option value="'Times New Roman', serif">'Times New Roman' (衬线)</option>
+                <option value="'Microsoft YaHei', sans-serif">微软雅黑 (中文)</option>
+              </select>
+              
+              <label>大小:</label>
+              <input type="number" id="costFontSize" min="8" max="18" value="12" onchange="updateResultStyles()">
+              
+              <label>颜色:</label>
+              <input type="color" id="costColor" value="#fd7e14" onchange="updateResultStyles()">
+            </div>
+          </div>
+
+          <!-- 剪贴板提示样式 -->
+          <div class="style-group">
+            <h3>剪贴板提示样式</h3>
+            <div class="style-controls">
+              <label>字体:</label>
+              <select id="clipboardFontFamily" onchange="updateResultStyles()">
+                <option value="Consolas, Monaco, monospace">Consolas (等宽)</option>
+                <option value="Arial, sans-serif">Arial (无衬线)</option>
+                <option value="'Times New Roman', serif">'Times New Roman' (衬线)</option>
+                <option value="'Microsoft YaHei', sans-serif">微软雅黑 (中文)</option>
+              </select>
+              
+              <label>大小:</label>
+              <input type="number" id="clipboardFontSize" min="8" max="18" value="13" onchange="updateResultStyles()">
+              
+              <label>颜色:</label>
+              <input type="color" id="clipboardColor" value="#6f42c1" onchange="updateResultStyles()">
+            </div>
+          </div>
+        </div>
+
+        <div class="style-preview">
+          <h3>样式预览</h3>
+          <div id="stylePreview" class="preview-area">
+            <div class="original">原文 (ja): これはテストです。</div>
+            <div class="translation">译文 (zh): 这是一个测试。</div>
+            <div class="timestamp">[12:34:56] 翻译完成 (DeepSeek V3-0324 🔥)</div>
+            <div class="cost">本次成本: $0.0010 (输入:15 输出:8 tokens)</div>
+            <div class="clipboard">📋 剪贴板监听翻译</div>
+            <div class="error">❌ 翻译失败: 网络错误</div>
+            <div class="info">💡 提示：可勾选'自动复制结果'选项</div>
+          </div>
+        </div>
+
+        <div class="style-actions">
+          <button onclick="resetDefaultStyles()" class="secondary-button">恢复默认</button>
+          <button onclick="saveStyles()" class="primary-button">保存样式</button>
+        </div>
+      </section>
+
+      <!-- 数据管理 -->
+      <section class="data-section">
+        <h2>数据管理</h2>
+        <div class="button-group">
+          <button onclick="exportConfig()" class="secondary-button">导出配置</button>
+          <button onclick="importConfig()" class="secondary-button">导入配置</button>
+          <button onclick="backupData()" class="secondary-button">备份数据</button>
+          <button onclick="restoreData()" class="secondary-button">恢复数据</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- 历史标签页 -->
+    <div id="historyTab" class="tab-content">
+      <section class="history-section">
+        <h2>翻译历史</h2>
+        <div class="history-controls">
+          <button onclick="loadHistory()">刷新历史</button>
+          <button onclick="clearHistory()">清空历史</button>
+          <button onclick="exportHistoryData()">导出历史</button>
+        </div>
+        <div id="historyList" class="history-list">
+          <p class="no-data">暂无翻译历史</p>
+        </div>
+      </section>
+
+      <!-- 统计信息 -->
+      <section class="stats-section">
+        <h2>使用统计</h2>
+        <div id="statsInfo" class="stats-info">
+          <p>正在加载统计信息...</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- 术语词典模态框 -->
+  <div id="termsModal" class="modal">
+    <div class="modal-content">
+      <h2>术语词典编辑器</h2>
+      <div class="terms-editor">
+        <div class="terms-list" id="termsList"></div>
+        <div class="terms-add">
+          <input type="text" id="japaneseTermInput" placeholder="日语原文">
+          <input type="text" id="translationTermInput" placeholder="正确翻译">
+          <button onclick="addTerm()">添加</button>
+        </div>
+        <div class="modal-buttons">
+          <button onclick="importPresetTerms()">导入预设</button>
+          <button onclick="saveTerms()">保存</button>
+          <button onclick="closeTermsModal()">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
