@@ -69,7 +69,13 @@
       ],
       "hardenedRuntime": true,
       "entitlements": "build/entitlements.mac.plist",
-      "entitlementsInherit": "build/entitlements.mac.plist"
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "dmg": {
+        "title": "Teams翻译助手",
+        "format": "UDIF",
+        "writeUpdateInfo": false,
+        "artifactName": "${productName}-${version}-${arch}.${ext}"
+      }
     },
     "win": {
       "target": [

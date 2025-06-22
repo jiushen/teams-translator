@@ -11,6 +11,10 @@ on:
         required: true
         default: 'v2.1.0'
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -22,15 +26,19 @@ jobs:
           - os: windows-latest
             platform: win
             arch: x64
+            build_cmd: "npx electron-builder --win --x64 --publish=never"
           - os: macos-latest
             platform: mac
             arch: x64
+            build_cmd: "npx electron-builder --mac --x64 --publish=never"
           - os: macos-latest
             platform: mac
             arch: arm64
+            build_cmd: "npx electron-builder --mac --arm64 --publish=never"
           - os: ubuntu-latest
             platform: linux
             arch: x64
+            build_cmd: "npx electron-builder --linux --x64 --publish=never"
         
     steps:
     - name: Checkout code
@@ -46,10 +54,14 @@ jobs:
       run: npm ci
       
     - name: Build application
-      run: npx electron-builder --${{ matrix.platform }} --${{ matrix.arch }} --publish=never
+      run: ${{ matrix.build_cmd }}
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CSC_IDENTITY_AUTO_DISCOVERY: false
+        # macOS DMG creation fix
+        ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES: true
+        # Disable DMG internet-enable to avoid hdiutil issues
+        ELECTRON_BUILDER_DMG_INTERNET_ENABLE: false
         
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
