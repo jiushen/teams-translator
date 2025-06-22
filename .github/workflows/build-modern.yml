@@ -87,8 +87,15 @@ jobs:
         path: artifacts/
         
     - name: Display structure of downloaded files
-      run: find artifacts/ -type f -name "*" | head -20
-      
+      run: |
+        echo "=== Artifacts structure ==="
+        find artifacts/ -type f -name "*.exe" -o -name "*.dmg" -o -name "*.zip" -o -name "*.AppImage" -o -name "*.deb" -o -name "*.tar.gz" | sort
+        echo "=== Removing duplicates ==="
+        # Remove any duplicate files that might cause conflicts
+        find artifacts/ -name "*.blockmap" -delete
+        find artifacts/ -name "builder-debug.yml" -delete
+        find artifacts/ -name "builder-effective-config.yaml" -delete
+        
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
@@ -127,12 +134,12 @@ jobs:
         draft: false
         prerelease: false
         files: |
-          artifacts/**/*.exe
-          artifacts/**/*.dmg
-          artifacts/**/*.zip
-          artifacts/**/*.AppImage
-          artifacts/**/*.deb
-          artifacts/**/*.tar.gz
+          artifacts/**/Teams翻译助手-*.exe
+          artifacts/**/Teams翻译助手-*.dmg
+          artifacts/**/Teams翻译助手-*-mac.zip
+          artifacts/**/Teams翻译助手-*.AppImage
+          artifacts/**/Teams翻译助手-*.deb
+          artifacts/**/teams-translator-*.tar.gz
         fail_on_unmatched_files: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
