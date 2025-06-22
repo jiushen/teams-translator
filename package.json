@@ -73,7 +73,7 @@
     },
     "dmg": {
       "title": "Teams翻译助手",
-      "format": "UDIF",
+      "format": "UDZO",
       "writeUpdateInfo": false,
       "artifactName": "${productName}-${version}-${arch}.${ext}"
     },
