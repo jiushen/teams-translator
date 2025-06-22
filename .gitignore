@@ -104,6 +104,8 @@ dist
 # Electron-builder output
 dist/
 build/
+!build/*.plist
+!build/icon.*
 
 # IDE files
 .vscode/

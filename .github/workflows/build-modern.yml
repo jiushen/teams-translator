@@ -1,0 +1,126 @@
+name: Build and Release (Modern)
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号 (例如: v2.1.0)'
+        required: true
+        default: 'v2.1.0'
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            platform: win
+            arch: x64
+          - os: macos-latest
+            platform: mac
+            arch: x64
+          - os: macos-latest
+            platform: mac
+            arch: arm64
+          - os: ubuntu-latest
+            platform: linux
+            arch: x64
+        
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build application
+      run: npm run build-${{ matrix.platform }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CSC_IDENTITY_AUTO_DISCOVERY: false
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.platform }}-${{ matrix.arch }}-build
+        path: dist/
+        retention-days: 5
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: artifacts/
+        
+    - name: Display structure of downloaded files
+      run: find artifacts/ -type f -name "*" | head -20
+      
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ github.event.inputs.version || github.ref_name }}
+        name: Teams翻译助手 ${{ github.event.inputs.version || github.ref_name }}
+        body: |
+          ## Teams翻译助手 ${{ github.event.inputs.version || github.ref_name }}
+          
+          ### 🎉 新版本发布
+          
+          #### ✨ 主要功能
+          - 🌿 **绿色软件**：配置文件保存在程序目录下，便携使用
+          - 📋 **剪贴板监听**：自动监听剪贴板变化，复制即翻译
+          - 🤖 **多AI模型**：支持OpenAI和DeepSeek多种模型
+          - 🎨 **字体样式配置**：可自定义翻译结果的字体样式
+          - 📚 **术语词典**：支持自定义术语，提高翻译准确性
+          - 💰 **成本统计**：实时显示翻译成本
+          - 📖 **翻译历史**：保存翻译记录
+          
+          #### 📦 下载说明
+          - **Windows用户**：下载 `Teams翻译助手-*-setup.exe` (安装版) 或 `*-portable.exe` (便携版)
+          - **macOS用户**：下载 `Teams翻译助手-*.dmg` 
+          - **Linux用户**：下载 `Teams翻译助手-*.AppImage` (推荐) 或 `.deb` 包
+          
+          #### 🚀 快速开始
+          1. 下载对应平台的安装包
+          2. 安装或解压运行
+          3. 配置OpenAI或DeepSeek API Key
+          4. 启用剪贴板监听
+          5. 开始翻译！
+          
+          #### 🔧 技术规格
+          - 基于Electron构建的跨平台应用
+          - 支持Windows 10+、macOS 10.14+、Ubuntu 18.04+
+          - 绿色软件，配置跟随程序
+        draft: false
+        prerelease: false
+        files: |
+          artifacts/**/*.exe
+          artifacts/**/*.dmg
+          artifacts/**/*.zip
+          artifacts/**/*.AppImage
+          artifacts/**/*.deb
+          artifacts/**/*.tar.gz
+        fail_on_unmatched_files: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
